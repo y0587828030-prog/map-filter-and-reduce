@@ -71,3 +71,8 @@
 grades = [100, 55, 70, 40, 88, 59]
 res =filter(lambda grade:grade if grade > 60 else False, grades)
 print(list(res))
+
+##step 3
+words = ["dog", "elephant", "cat", "computer", "sun"]
+res = filter(lambda word: True if len(word)<= 3 else False, words)
+print(list(res))
