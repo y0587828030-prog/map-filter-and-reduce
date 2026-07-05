@@ -51,18 +51,23 @@
 # res = map(lambda scores: f'{scores["name"]}"  {scores["score"]+5}',players)
 # print(list(res))
 
-##step 10
-orders = [
-    {"id": 1, "item": "Book", "amount": 3, "price": 40},
-    {"id": 2, "item": "Pen", "amount": 10, "price": 5},
-    {"id": 3, "item": "Bag", "amount": 1, "price": 120}
-]
+# ##step 10
+# orders = [
+#     {"id": 1, "item": "Book", "amount": 3, "price": 40},
+#     {"id": 2, "item": "Pen", "amount": 10, "price": 5},
+#     {"id": 3, "item": "Bag", "amount": 1, "price": 120}
+# ]
 
-res = map(lambda list1: f'{list1["id"]} {list1["item"]} total is  {list1["amount"]*list1["price"]}',orders)
-print(list(res))
+# res = map(lambda list1: f'{list1["id"]} {list1["item"]} total is  {list1["amount"]*list1["price"]}',orders)
+# print(list(res))
 
 ##Part 2 — filter Exercises
-##step 1
-numbers = [4, 7, 10, 13, 18, 21]
-res =  filter(lambda n: True if n % 2 == 0 else False, numbers )
+# ##step 1
+# numbers = [4, 7, 10, 13, 18, 21]
+# res =  filter(lambda n: True if n % 2 == 0 else False, numbers )
+# print(list(res))
+
+##step 2
+grades = [100, 55, 70, 40, 88, 59]
+res =filter(lambda grade:grade if grade > 60 else False, grades)
 print(list(res))
