@@ -60,3 +60,9 @@ orders = [
 
 res = map(lambda list1: f'{list1["id"]} {list1["item"]} total is  {list1["amount"]*list1["price"]}',orders)
 print(list(res))
+
+##Part 2 — filter Exercises
+##step 1
+numbers = [4, 7, 10, 13, 18, 21]
+res =  filter(lambda n: True if n % 2 == 0 else False, numbers )
+print(list(res))
