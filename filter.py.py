@@ -18,7 +18,12 @@
 # res = map(lambda name: name.upper()  , names)
 # print(list(res))
 
-###step 5
-users = ["Noa", "Adam", "Lior", "Tamar"]
-res = map(lambda user: f"hello {user}", users)
+# ###step 5
+# users = ["Noa", "Adam", "Lior", "Tamar"]
+# res = map(lambda user: f"hello {user}", users)
+# print(list(res))
+
+##step 6
+meters = [1.5, 2, 0.75, 3.2]
+res = map(lambda metar: metar*100 , meters)
 print(list(res))
