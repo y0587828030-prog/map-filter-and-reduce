@@ -13,7 +13,12 @@
 # res = map(lambda word: len(word) , words )
 # print(list(res)) 
 
-##step 4
-names = ["dan", "maya", "ron", "lea"]
-res = map(lambda name: name.upper()  , names)
+# ##step 4
+# names = ["dan", "maya", "ron", "lea"]
+# res = map(lambda name: name.upper()  , names)
+# print(list(res))
+
+##step 5
+users = ["Noa", "Adam", "Lior", "Tamar"]
+res = map(lambda user: f"hello {user}", users)
 print(list(res))
