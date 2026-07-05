@@ -28,7 +28,16 @@
 # res = map(lambda metar: metar*100 , meters)
 # print(list(res))
 
-##step 7
-grades = [95, 40, 67, 88, 52]
-res = map(lambda grade: "pass" if grade >= 60 else "fail"  , grades)
+# ##step 7
+# grades = [95, 40, 67, 88, 52]
+# res = map(lambda grade: "pass" if grade >= 60 else "fail"  , grades)
+# print(list(res))
+
+##step 8
+products = [
+    {"name": "Bread", "price": 8},
+    {"name": "Milk", "price": 6},
+    {"name": "Eggs", "price": 15}
+]
+res = map(lambda list: f'{list["name"]}" costs {list["price"]}', products)
 print(list(res))
