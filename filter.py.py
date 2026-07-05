@@ -23,7 +23,12 @@
 # res = map(lambda user: f"hello {user}", users)
 # print(list(res))
 
-##step 6
-meters = [1.5, 2, 0.75, 3.2]
-res = map(lambda metar: metar*100 , meters)
+# ##step 6
+# meters = [1.5, 2, 0.75, 3.2]
+# res = map(lambda metar: metar*100 , meters)
+# print(list(res))
+
+##step 7
+grades = [95, 40, 67, 88, 52]
+res = map(lambda grade: "pass" if grade >= 60 else "fail"  , grades)
 print(list(res))
