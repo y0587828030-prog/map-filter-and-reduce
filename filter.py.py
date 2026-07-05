@@ -33,11 +33,20 @@
 # res = map(lambda grade: "pass" if grade >= 60 else "fail"  , grades)
 # print(list(res))
 
-##step 8
-products = [
-    {"name": "Bread", "price": 8},
-    {"name": "Milk", "price": 6},
-    {"name": "Eggs", "price": 15}
+# ##step 8
+# products = [
+#     {"name": "Bread", "price": 8},
+#     {"name": "Milk", "price": 6},
+#     {"name": "Eggs", "price": 15}
+# ]
+# res = map(lambda list: f'{list["name"]}" costs {list["price"]}', products)
+# print(list(res))
+
+##step 9
+players = [
+    {"name": "Dana", "score": 70},
+    {"name": "Yoni", "score": 85},
+    {"name": "Rami", "score": 40}
 ]
-res = map(lambda list: f'{list["name"]}" costs {list["price"]}', products)
+res = map(lambda scores: f'{scores["name"]}"  {scores["score"]+5}',players)
 print(list(res))
