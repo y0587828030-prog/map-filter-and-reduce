@@ -3,7 +3,12 @@
 # res = map(lambda num: num + 10 , numbers)
 # print(list(res))
 
-## step 2
-prices = [100, 50, 200, 80]
-res = map(lambda num: num * 1.17 , prices)
-print(list(res))
+# ## step 2
+# prices = [100, 50, 200, 80]
+# res = map(lambda num: num * 1.17 , prices)
+# print(list(res))
+
+##step 3
+words = ["cat", "elephant", "dog", "python"]
+res = map(lambda word: len(word) , words )
+print(list(res))  
