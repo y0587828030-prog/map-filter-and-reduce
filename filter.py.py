@@ -8,7 +8,12 @@
 # res = map(lambda num: num * 1.17 , prices)
 # print(list(res))
 
-##step 3
-words = ["cat", "elephant", "dog", "python"]
-res = map(lambda word: len(word) , words )
-print(list(res))  
+# ##step 3
+# words = ["cat", "elephant", "dog", "python"]
+# res = map(lambda word: len(word) , words )
+# print(list(res)) 
+
+##step 4
+names = ["dan", "maya", "ron", "lea"]
+res = map(lambda name: name.upper()  , names)
+print(list(res))
