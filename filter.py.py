@@ -42,11 +42,21 @@
 # res = map(lambda list: f'{list["name"]}" costs {list["price"]}', products)
 # print(list(res))
 
-##step 9
-players = [
-    {"name": "Dana", "score": 70},
-    {"name": "Yoni", "score": 85},
-    {"name": "Rami", "score": 40}
+# ##step 9
+# players = [
+#     {"name": "Dana", "score": 70},
+#     {"name": "Yoni", "score": 85},
+#     {"name": "Rami", "score": 40}
+# ]
+# res = map(lambda scores: f'{scores["name"]}"  {scores["score"]+5}',players)
+# print(list(res))
+
+##step 10
+orders = [
+    {"id": 1, "item": "Book", "amount": 3, "price": 40},
+    {"id": 2, "item": "Pen", "amount": 10, "price": 5},
+    {"id": 3, "item": "Bag", "amount": 1, "price": 120}
 ]
-res = map(lambda scores: f'{scores["name"]}"  {scores["score"]+5}',players)
+
+res = map(lambda list1: f'{list1["id"]} {list1["item"]} total is  {list1["amount"]*list1["price"]}',orders)
 print(list(res))
